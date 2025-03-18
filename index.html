@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <link rel="stylesheet" href="qrCode.css"> 
+
+</head>
+<body>
+  <div class="container">
+  <h1> GET THE QR-CODE INSTANTALY</h1>
+  <input type="text" id="urlid" placeholder="Enter url here">
+  <button id="generatebtn" onclick="generateQR()"> Generate QR code </button> <br>
+  <div id="qrcode"></div>
+  <button id="download-button" onclick="qrDownload()">Download the QR</button>
+</div>
+<script src="qrCode.js"></script>
+</body>
+</html>

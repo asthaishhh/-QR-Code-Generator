@@ -1,0 +1,53 @@
+h1{
+  font-size: 70px;
+  justify-content: center;
+  color: blueviolet;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px;
+  border-radius: 10px; */
+ 
+}
+body{
+  background-color: rgb(230, 206, 252);
+  text-align: center;
+}
+input{
+  padding: 10px;
+  width: auto;
+}
+button{
+  padding: 7px;
+  margin:5px;
+  border-radius: 20px;
+  width: 200px;
+  text-shadow: blueviolet;
+  color: aliceblue;
+  background-color: blueviolet;
+}
+#urlid{
+  font-family: cursive;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: blueviolet;
+  font-size: larger;
+  color:blueviolet;
+}
+#download-button{
+  margin: 50px;
+}
+#generatebtn{
+  padding: 7px;
+  margin-left: 20px;
+}
+#qrcode{
+  border: 0px solid white;
+  display:inline;
+  margin: 20px 0; /* Add space above and below */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
