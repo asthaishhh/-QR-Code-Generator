@@ -43,4 +43,5 @@ Click on Generate QR Code.
 The QR code will be displayed in the center.
 
 Click Download QR to save the image. 
+link: https://asthaishhh.github.io/-QR-Code-Generator/
 
